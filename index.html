@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple caliculator</title>
+    <style>
+        h3{
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body style="background-image: url(http://eduxonline.co/wp-content/uploads/2020/05/math-reasoning-1080x675.png); height: 1000px; width: 1000px;">
+    <h1 style="color: rgb(255, 255, 255); position: relative; left: 550px;">my simple caliculator</h1>
+    <div id="center" style="background-image: linear-gradient(#ad5389,#3c1053);padding: 20px;margin: 2px;border: 2px solid rgb(255, 255, 255); height:400px; width:380px; position: relative; left: 500px;">
+        <h3>enter first number :</h3>
+        <input id="value1" type="text">
+        <h3>enter second number :</h3>
+        <input id="value2" type="text"><br>
+        <div style="position: relative;top: 9px;">
+        <button id="addb" onclick="add()">addition(a+b)</button>
+        <button id="subb" onclick="sub()">subtraction(a-b)</button>
+        <br><br>
+        <button id="mulb"  onclick="mul()">multiplying(a*b)</button>
+        <button id="divb"  onclick="div()">divison(a/b)</button>
+        <br><br>
+        </div>
+        <h3>Result</h3>
+        <p id="add" style=" height: 20px; width: 300px;margin: 2px; border: 2px solid rgb(0, 0, 0); color: rgb(0, 0, 0);">here you can see answer</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
